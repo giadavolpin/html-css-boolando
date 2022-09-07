@@ -64,7 +64,7 @@ img{
     text-decoration: line-through;
 }
 .card:hover .second{
-    display: inline-block;
+    /* display: inline-block; */
     z-index: 2;
 }
 .card:hover .first{
