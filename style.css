@@ -4,22 +4,31 @@
     box-sizing: border-box;
 }
 :root{
-    --red: rgb(255, 0, 0)
-    --green: rgb(0, 127, 0)
-    --orange: rgb(255, 105, 0)
+    --red: rgb(255, 0, 0);
+    --green: rgb(0, 127, 0);
+    --orange: rgb(255, 105, 0);
     --black: rgb(0, 0, 3);
 }
 header{
     color: white;
     min-width: 500px;
     margin-bottom: 10px;
+    background-color: var(--orange);
 }
-.menu{
+nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: var(--orange);
-
+    
+}
+.al{
+    vertical-align: middle;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
 }
 .logo{
     width: 200px;
@@ -35,6 +44,8 @@ header{
 }
 .col{
     width: calc((100% - 10) / 3);
+    padding-bottom: 20px;
+    position: relative;
 }
 .margin{
     margin: 0 5px;
@@ -43,5 +54,27 @@ col img{
     width: 100%;
 }
 img{
-    width: 370px ;
+    width: 370px;
+    padding-bottom: 2px;
+}
+.red{
+    color: var(--red);
+}
+.sbarra{
+    text-decoration: line-through;
+}
+/*
+.heart{
+    position: absolute;
+    right: 0;
+    top: 10px;
+
+}
+*/
+.label{
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 40px;
 }
