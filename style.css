@@ -45,15 +45,17 @@ nav{
 .card{
     width: calc((100% - 10px) / 3);
     position: relative;
+    cursor: pointer;
 }
 .margin{
     margin: 0 5px;
 }
-col img{
+card img{
     width: 100%;
 }
 img{
     padding-bottom: 2px;
+    width: 300px;
 }
 .red{
     color: var(--red);
@@ -62,13 +64,13 @@ img{
     text-decoration: line-through;
 }
 .card:hover .second{
+    display: inline-block;
     z-index: 2;
 }
 .card:hover .first{
     z-index: 1;
 }
 .second{
-    display: none;
     z-index: 1;
 }
 .first{
