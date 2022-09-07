@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    -- red: rgb(255, 0, 0)
+    -- green: rgb(0, 127, 0)
+    -- orange: rgb(255, 105, 0)
+    -- black: rgb(0, 0, 3);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(-- orange);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+.logo{
+    width: 200px;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
