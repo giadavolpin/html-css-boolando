@@ -4,20 +4,21 @@
     box-sizing: border-box;
 }
 :root{
-    -- red: rgb(255, 0, 0)
-    -- green: rgb(0, 127, 0)
-    -- orange: rgb(255, 105, 0)
-    -- black: rgb(0, 0, 3);
+    --red: rgb(255, 0, 0)
+    --green: rgb(0, 127, 0)
+    --orange: rgb(255, 105, 0)
+    --black: rgb(0, 0, 3);
 }
 header{
-    display: flex;
-    justify-content: space-between;
-    background-color: var(-- orange);
+    color: white;
+    min-width: 500px;
     margin-bottom: 10px;
 }
-nav{
+.menu{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--orange);
 
 }
 .logo{
@@ -30,10 +31,17 @@ nav{
 }
 .row-flex{
     display: flex;
+
 }
 .col{
-    width: calc((100% - 10)/ 3);
+    width: calc((100% - 10) / 3);
 }
 .margin{
-    margin: 5px;
+    margin: 0 5px;
+}
+col img{
+    width: 100%;
+}
+img{
+    width: 370px ;
 }
