@@ -13,6 +13,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: var(-- orange);
+    margin-bottom: 10px;
 }
 nav{
     display: flex;
@@ -26,4 +27,13 @@ nav{
     max-width: 1170px;
     margin: 0 auto;
     flex-wrap: wrap;
+}
+.row-flex{
+    display: flex;
+}
+.col{
+    width: calc((100% - 10)/ 3);
+}
+.margin{
+    margin: 5px;
 }
