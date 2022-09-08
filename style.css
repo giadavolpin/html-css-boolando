@@ -65,16 +65,16 @@ img{
 }
 .card:hover .second{
     /* display: inline-block; */
-    z-index: 2;
+   display: none;
 }
 .card:hover .first{
-    z-index: 1;
+    display: inline-block;
 }
 .second{
-    z-index: 1;
+   display: none;
 }
 .first{
-    z-index: 2;
+    display: inline-block;
 }
 /*
 .heart{
