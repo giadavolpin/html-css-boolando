@@ -65,10 +65,10 @@ img{
 }
 .card:hover .second{
     /* display: inline-block; */
-   display: none;
+   display: inline-block;
 }
 .card:hover .first{
-    display: inline-block;
+    display: none;
 }
 .second{
    display: none;
@@ -81,7 +81,6 @@ img{
     position: absolute;
     right: 0;
     top: 10px;
-
 }
 */
 .label{
@@ -118,3 +117,6 @@ footer{
     background-color: var(--black);
     padding: 15px;
 }
+ul {
+    list-style-type: none;
+    }
