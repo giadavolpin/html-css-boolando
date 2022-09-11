@@ -20,22 +20,25 @@ nav{
     flex-direction: row;
     justify-content: space-between;  
     color: white;  
-    max-width: 1170px;
+    max-width: 1400px;
     margin: 0 auto;    
 }
 .al{
     vertical-align: middle;
+    display: flex;
 }
 .menu{
     display: flex;
     flex-direction: row;
     margin-left: 10px;
+    justify-content: space-between;
 }
 .logo{
     width: 200px;
 }
+/*non è centrato*/
 .container{
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -64,7 +67,6 @@ img{
     text-decoration: line-through;
 }
 .card:hover .second{
-    /* display: inline-block; */
    display: inline-block;
 }
 .card:hover .first{
@@ -119,4 +121,13 @@ footer{
 }
 ul {
     list-style-type: none;
+    display: flex;
     }
+li{
+    flex-direction: row;
+    padding: 10px;
+}    
+.margine{
+    padding: 10px;
+    flex-direction: row;
+}
